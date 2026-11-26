@@ -1,14 +1,13 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { Link } from "react-router-dom";
 
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { gmail, linkedin, jobit } from "../assets/index";
+import { gmail, linkedin, linkedinPage, resume, resumePic } from "../assets/index";
 
 const Contact = () => {
 
@@ -27,25 +26,15 @@ const Contact = () => {
           <h2 className={styles.sectionHeadText}>Get in Touch!</h2>
         </div>
         <div className='flex flex-col gap-4 pt-3'>
-          <div onClick={() => window.open("mailto:thampaweewan@gmail.com")} className='relative'>
+          <a
+            href="https://www.linkedin.com/in/tham-paweewan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='relative'
+          >
             <img
-              src={jobit}
-              alt='project_image'
-              className='w-full h-full object-cover rounded-2xl'
-            />
-
-            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-              <img
-                src={gmail}
-                alt='source code'
-                className='w-10 h-10 object-contain'
-              />
-            </div>
-          </div>
-          <div onClick={() => window.open("https://www.linkedin.com/in/tham-paweewan")} className='relative'>
-            <img
-              src={jobit}
-              alt='project_image'
+              src={linkedinPage}
+              alt='LinkedIn profile preview'
               className='w-full h-full object-cover rounded-2xl'
             />
 
@@ -55,12 +44,31 @@ const Contact = () => {
               >
                 <img
                   src={linkedin}
-                  alt='source code'
+                  alt='LinkedIn'
                   className='w-10 h-10 object-contain'
                 />
               </div>
             </div>
-          </div>
+          </a>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='relative'
+          >
+            <img
+              src={resumePic}
+              alt='Resume preview'
+              className='w-full h-full object-cover rounded-2xl'
+            />
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <img
+                src={gmail}
+                alt='Email'
+                className='w-10 h-10 object-contain'
+              />
+            </div>
+          </a>
         </div>
         
       </motion.div>

@@ -42,16 +42,9 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+      <p className='mt-5 text-white-100 text-[14px] tracking-wider'>
+        {experience.description}
+      </p>
     </VerticalTimelineElement>
   );
 };
@@ -59,14 +52,25 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div
+        variants={textVariant()}
+        initial='hidden'
+        whileInView='show'
+        viewport={{ once: true, amount: "some" }}
+      >
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          How I got here
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Coding Journey.
+          My Story
         </h2>
       </motion.div>
+
+      <p className='mt-4 mx-auto text-center text-secondary text-[17px] max-w-3xl leading-[30px]'>
+        This timeline traces the moments and people that inspired me along the
+        way. Each experience shaped how I think, what I value, and the work I
+        hope to do next.
+      </p>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

@@ -8,7 +8,11 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import ig from "./instagram.webp";
 import gmail from "./gmail.png";
+import emailPage from "./email-page.png";
 import linkedin from "./linkedin.png";
+import linkedinPage from "./linkedin-page.png";
+import resumePic from "./resume-pic.png";
+import resume from "./Thammathorn_Resume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -22,7 +26,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import python from "./tech/python.svg";
 import java from "./tech/java.svg";
 import flutter from "./tech/flutter.svg";
@@ -34,6 +38,8 @@ import eis from "./company/eis3.png";
 import xhacks from "./company/xhacks.png";
 import uoft from "./company/uoft.png";
 import dga from "./company/dga.png";
+import fintech from "./company/utmfa.jpg";
+import powerAdvisory from "./company/power advisory.jpg";
 
 
 import carrent from "./carrent.png";
@@ -42,7 +48,11 @@ import tripguide from "./tripguide.png";
 
 export {
   gmail,
+  emailPage,
   linkedin,
+  linkedinPage,
+  resumePic,
+  resume,
   ig,
   datastudio,
   flutter,
@@ -75,6 +85,8 @@ export {
   dga,
   xhacks,
   uoft,
+  fintech,
+  powerAdvisory,
   carrent,
   jobit,
   tripguide,
