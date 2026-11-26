@@ -25,6 +25,8 @@ import {
     dga,
     eis,
     uoft,
+    fintech,
+    powerAdvisory,
     carrent,
     jobit,
     tripguide,
@@ -38,7 +40,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "My Story",
     },
     {
       id: "contact",
@@ -123,72 +125,62 @@ import {
       icon: wro,
       iconBg: "#E6DEDD",
       date: "November 2015",
-      points: [
-        "Developing and refining robot prototype for given competition task under the theme of robot explorers.",
-        "Collaborating with a team of 3 and a coach to program and debug robot to optimize task completion time.",
-        "Adapting to new additional tasks put in place on competition day under tight time limit.",
-      ],
+      description:
+        "Growing up, my hobby was building robots with my friends. I've always enjoyed solving problems. Representing Thailand and ranking in the global top 16 was a proud moment.",
     },
     {
-      title: "Gold Medalist",
-      company_name: "World Robot Games",
-      icon: wrg,
-      iconBg: "#000000",
-      date: "August 2016",
-      points: [
-        "Developing and refining an Arduino based fire fighting robot to complete the task in place.",
-        "Collaborating with a teammate and a coach to fix bugs and optimize time taken to put out fires.",
-        "Adapting and optimizing robot runtime to hurdles on competition day under pressure.",
-      ],
-    },
-    {
-      title: "Coding Club Founder",
+      title: "Student Researcher & Advocate",
       company_name: "High School",
       icon: eis,
       iconBg: "#E6DEDD",
-      date: "Jan 2019 - May 2022",
-      points: [
-        "Ran a school club dedicated to programming with Python and Arduino languages.",
-        "Hosted schoolwide Python discord bot creation competition.",
-        "Created child friendly obstacle-avoiding alcohol dispenser robot for school classrooms.",
-        "Hosting programming workshops and providing constructive feedback to other student developers.",
-      ],
+      date: "January 2019 to May 2022",
+      description:
+        "Independently, I investigated challenges students faced and brought my findings to my highschool. My lobbying efforts resulted in the expansion of my school's counseling services. For the first time, my data made a real world impact.",
     },
     {
       title: "Data Analyst Intern",
       company_name: "Digital Government Development Agency Thailand",
       icon: dga,
       iconBg: "#E6DEDD",
-      date: "Jun 2021 - Aug 2021",
-      points: [
-        "Employing Java and SQL to model, present, and analyze workflow and business data.",
-        "Utilizing Google Data Studio to present monthly reports monitoring large amounts of customer data.",
-        "Assisting in streamlining the backend DevOps process for security integration.",
-      ],
+      date: "June 2021 to August 2021",
+      description:
+        "At the DGA, I used data tools to make public sector information easier to understand. It was my first look at how technology can turn complicated information into practical decisions on a major scale.",
     },
     {
-      title: "Best Rookie Hack",
-      company_name: "XHacks Hackathon",
-      icon: xhacks,
-      iconBg: "#000000",
-      date: "August 2021",
-      points: [
-        "Utilizing Angular and Firebase to create a web application for hosting online debate tournaments.",
-        "Creating landing page with user authentication, and added text and audio sharing functionalities.",
-        "Designing UX and UI elements as well as graphics for the website's pages.",
-      ],
-    },
-    {
-      title: "Pursuing a Computer Science Major",
-      company_name: "University of Toronto",
+      title: "Student Director",
+      company_name: "UTM Student Union & Campus Affairs Board",
       icon: uoft,
       iconBg: "#E6DEDD",
-      date: "September 2022 - Present",
-      points: [
-        "Pursuing a comprehensive education in Data Structures, Algorithms, and Machine Learning, amongst related fields.",
-        "Creating a Fintech Club to connect together like-minded students and host workshops and hackathons.",
-        "Taking part in computer science related clubs on campus through workshops and hackathons.",
-      ],
+      date: "September 2022 to Present",
+      description:
+        "I represented student voices on campus and lobbied the Ontario Parliament to support student initiatives. Making change on an even larger scale, I felt like I had reached a new level of impact.",
+    },
+    {
+      title: "Founder",
+      company_name: "UTM Fintech Association",
+      icon: fintech,
+      iconBg: "#0F172A",
+      date: "September 2022 to Present",
+      description:
+        "I began exploring fintech out of curiosity and soon wanted to help other curious students. Building a student community showed me just how much more fun things are when weexperiment together.",
+    },
+    {
+      title: "Economics Research",
+      company_name: "U of T Department of Economics",
+      icon: uoft,
+      iconBg: "#E6DEDD",
+      date: "September 2023 to August 2024",
+      description:
+        "Leading the tech side of historical trade research connected my computer science skills with practical economics. I was intrigued by just how much good analysis depended on clean data.",
+    },
+    {
+      title: "Consultant",
+      company_name: "Power Advisory LLC",
+      icon: powerAdvisory,
+      iconBg: "#E6DEDD",
+      date: "May 2025 to August 2026",
+      description:
+        "Consulting brought together data, collaborative, problem solving, and my desire to make an impact.",
     },
   ];
   
